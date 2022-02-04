@@ -6,11 +6,11 @@ function SecondHeaderCom(){
             <navbar className ="second--project__navbar">
                 <h1>K. Griffith</h1>
                 <ul>
-                    <li><a href="#">Appearance</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">news</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="https://pdp.uz/course-play/loyihani-githubga-yuklash-va-deploy-qilish">Appearance</a></li>
+                    <li><a href="https://pdp.uz/course-play/loyihani-githubga-yuklash-va-deploy-qilish">Books</a></li>
+                    <li><a href="https://pdp.uz/course-play/loyihani-githubga-yuklash-va-deploy-qilish">news</a></li>
+                    <li><a href="https://pdp.uz/course-play/loyihani-githubga-yuklash-va-deploy-qilish">about</a></li>
+                    <li><a href="https://pdp.uz/course-play/loyihani-githubga-yuklash-va-deploy-qilish">contact</a></li>
                 </ul>
             </navbar>
 
