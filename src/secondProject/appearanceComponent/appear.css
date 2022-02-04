@@ -1,0 +1,79 @@
+.appear--section{
+    background: rgb(2, 7, 36);
+    padding: 3rem  0 0;
+}
+h1{
+    color: coral;
+    font-weight: 500;
+}
+.appear--section>h1{
+    text-align: center;
+    margin: .4rem 0;
+    font-size: 1.8rem;
+    
+}
+.appear--section p{
+    text-align: center;
+    font-size: .9rem;
+    color: #fff;
+}
+.appear--section__div{
+    width: 40%;
+    margin: 2rem auto;
+    border: 1px solid #fff;
+    padding: 3rem 0;
+    text-align: center;
+    border-radius: .3rem;
+}
+.appear--section__div h3{
+    font-weight: 500;
+    color: #fff;
+}
+ button{
+    width: 100px;
+    height: 30px;
+    padding: .2rem 0;
+    border-radius: 1rem;
+    border: 1px solid coral;
+    color: coral;
+    background: inherit;
+    transition: all linear .3s;
+}
+ button:hover{
+    background: coral;
+    color: inherit;
+}
+.about--section{
+    width: 80%;
+    margin: 9rem auto 0;
+    background: rgb(15, 19, 20);
+    text-align: center;
+    padding: 1rem 2rem;
+    position: relative;
+    border-radius: .4rem;
+}
+.about--section img{
+    position: absolute;
+    top: -30%;
+    left:45%;
+    border-radius: 50%;
+
+}
+.about--section h1{
+    margin-top: 90px;
+    font-size: 1.7rem;
+}
+.about--section p{
+    width: 60%;
+    margin: 1rem auto;
+}
+.footer{
+    width: 100%;
+    padding: .5rem 0;
+    text-align: center;
+    background: coral;
+}
+.footer p{
+    font-size: 1.2rem;
+}
+

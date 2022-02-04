@@ -1,0 +1,62 @@
+.first--section_contanier{
+    background: url("../../../public/foto/second--img_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5vw;
+    height: 100vh;
+    padding: 2rem 2rem 0;
+    position: relative;
+   background-attachment: fixed;
+   margin: 0;
+}
+.first--section_contanier::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.first--section__box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 60%;
+    margin: 5rem auto;
+    background-color: rgba(0, 0, 0, .9);
+    padding: 1rem;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index:22;
+}
+.first--section__box .left{
+    width: 50%;
+    color: #fff;
+    margin-top: 2rem;
+}
+.left h2{
+    font-size: 1.3rem;
+    margin: .2rem 0;
+    font-weight: 500;
+    
+}
+.first--section--btns button{
+  margin: .4rem 1rem;
+  width: 75px;
+  padding: .3rem 0;
+  background: black;
+  border: 1px solid coral;
+  border-radius: .5rem;
+  font-size: .9rem;
+  color: coral;
+  cursor: pointer;
+  transition: .4s linear color;
+}
+.first--section--btns button:hover{
+    color:#000;
+    background: coral;
+}

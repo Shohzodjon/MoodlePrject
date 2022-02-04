@@ -1,0 +1,69 @@
+.second--project__header{
+    background: #000;
+    margin:0;
+    padding: 2rem 0 0;
+    width:100%;
+    height: 50vh;
+}
+.second--project__navbar{
+    width: 80%;
+    margin: 20px auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.second--project__navbar::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    background: #fff;
+}
+.second--project__navbar ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.second--project__navbar h1{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.second--project__navbar a{
+    transition: .5s linear color;
+}
+.second--project__navbar li:hover a{
+  color:coral;
+}
+
+.second--project__container{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.second--project__container img{
+    position: absolute;
+    top: 50px;
+    left: 27%;
+    z-index: 2;
+}
+.second--project__container h2{
+  position: absolute;
+  top: 0;
+  right: 30%;
+  font-size: 3rem;
+  font-weight: 500;
+  color: coral;
+}
+.second--project__container h5{
+    position: absolute;
+    top: 100px;
+    right: 38%;
+    font-size: 1rem;
+}
+
